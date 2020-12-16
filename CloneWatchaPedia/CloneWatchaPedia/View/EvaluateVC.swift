@@ -1,5 +1,5 @@
 //
-//  Evaluate.swift
+//  EvaluateVC.swift
 //  CloneWatchaPedia
 //
 //  Created by 요한 on 2020/12/15.

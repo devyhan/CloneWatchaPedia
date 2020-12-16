@@ -15,6 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     
     let tabBarController = UITabBarController()
+    tabBarController.tabBar.barTintColor = .systemBackground
+    tabBarController.tabBar.tintColor = .black
+    tabBarController.tabBar.barTintColor = .white
     
     let homeVC = HomeVC()
     let searchVC = SearchVC()
@@ -30,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     tabBarController.viewControllers = [homeVC, searchVC, evaluateVC, newsVC, profileVC]
     
     window = UIWindow(frame: UIScreen.main.bounds)
-    window?.rootViewController = UINavigationController(rootViewController: tabBarController)
+    window?.rootViewController = tabBarController
     window?.makeKeyAndVisible()
     
     return true
