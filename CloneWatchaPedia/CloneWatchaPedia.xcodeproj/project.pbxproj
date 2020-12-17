@@ -14,6 +14,7 @@
 		7E838A3C2588DB4200A235CB /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E838A3B2588DB4200A235CB /* MenuBarView.swift */; };
 		7E838A3F2588E6A400A235CB /* CommonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E838A3E2588E6A400A235CB /* CommonCollectionViewCell.swift */; };
 		7E838A42258988FF00A235CB /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E838A41258988FF00A235CB /* UIFont+Extension.swift */; };
+		7E838A4525898FD100A235CB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E838A4425898FD100A235CB /* UIColor+Extension.swift */; };
 		7EBE4B992588AA8100B81E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBE4B982588AA8100B81E7C /* AppDelegate.swift */; };
 		7EBE4B9D2588AA8100B81E7C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBE4B9C2588AA8100B81E7C /* HomeVC.swift */; };
 		7EBE4BA22588AA8400B81E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EBE4BA12588AA8400B81E7C /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		7E838A3B2588DB4200A235CB /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
 		7E838A3E2588E6A400A235CB /* CommonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCollectionViewCell.swift; sourceTree = "<group>"; };
 		7E838A41258988FF00A235CB /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		7E838A4425898FD100A235CB /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		7EBE4B952588AA8100B81E7C /* CloneWatchaPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloneWatchaPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EBE4B982588AA8100B81E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EBE4B9C2588AA8100B81E7C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				7EBE4BA32588AA8400B81E7C /* LaunchScreen.storyboard */,
 				7EBE4BA62588AA8400B81E7C /* Info.plist */,
 				7E838A41258988FF00A235CB /* UIFont+Extension.swift */,
+				7E838A4425898FD100A235CB /* UIColor+Extension.swift */,
 			);
 			path = CloneWatchaPedia;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				7E838A42258988FF00A235CB /* UIFont+Extension.swift in Sources */,
 				7EBE4B992588AA8100B81E7C /* AppDelegate.swift in Sources */,
 				7E6E2C952588B7AD00CF63E0 /* NewsVC.swift in Sources */,
+				7E838A4525898FD100A235CB /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +382,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X6LA4P7TFP;
 				INFOPLIST_FILE = CloneWatchaPedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,6 +403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X6LA4P7TFP;
 				INFOPLIST_FILE = CloneWatchaPedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

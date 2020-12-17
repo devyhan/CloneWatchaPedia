@@ -17,7 +17,7 @@ class HomeVC: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    view.backgroundColor = .white
+    view.backgroundColor = .baseColor
     
     setNavigation()
     setMenuBar()
